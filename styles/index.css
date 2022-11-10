@@ -539,13 +539,7 @@ letter-spacing: 0.03em;
     font-weight: 500;
 }
 
-.team-item::before{
-    content: " " ;  
-    display: block;
-     width: 100px;
-     height: 100px;
-     background-image: url(/img/worker1.jpg,);
-}
+
 
 .benefist-item1::before{
     content: "";
