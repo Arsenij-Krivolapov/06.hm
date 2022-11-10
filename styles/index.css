@@ -546,3 +546,47 @@ letter-spacing: 0.03em;
      height: 100px;
      background-image: url(/img/worker1.jpg,);
 }
+
+.benefist-item1::before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    background-image: url(/img/atetiontodetails.png);
+}
+
+.benefist-item2::before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    background-image: url(/img/clock.png);
+}
+
+.benefist-item3::before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    background-image: url(/img/diagram.png);
+}
+
+.benefist-item4::before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    background-image: url(/img/astronaut.png);
+}
