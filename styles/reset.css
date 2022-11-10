@@ -22,6 +22,14 @@ p, h1, h2, h3, h4, h5, h6{
 
 .container-hero{
     background: #2F303A;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    outline: solid pink;
+    background-image: url(/img/herosection.jpg);
+    
 
 }
 
