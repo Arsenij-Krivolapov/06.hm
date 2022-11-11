@@ -519,13 +519,11 @@ letter-spacing: 0.03em;
 
 .hero-section{
     padding-top: 50px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/herosection.jpg);
 
 }
 
-.hero-title{
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
+
 
 .header-list{
     
@@ -550,7 +548,7 @@ letter-spacing: 0.03em;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
-    background-image: url(/img/atetiontodetails.png);
+    background-image: url(../img/atetiontodetails.png);
 }
 
 .benefist-item2::before{
@@ -561,7 +559,7 @@ letter-spacing: 0.03em;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
-    background-image: url(/img/clock.png);
+    background-image: url(../img/clock.png);
 }
 
 .benefist-item3::before{
@@ -572,7 +570,7 @@ letter-spacing: 0.03em;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
-    background-image: url(/img/diagram.png);
+    background-image: url(../img/diagram.png);
 }
 
 .benefist-item4::before{
@@ -583,7 +581,7 @@ letter-spacing: 0.03em;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
-    background-image: url(/img/astronaut.png);
+    background-image: url(../img/astronaut.png);
 }
 
 .header-studio{
@@ -599,10 +597,7 @@ letter-spacing: 0.03em;
     margin-right: none;
 }
 
-.hero-section{
-    
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/herosection.jpg);
-}
+
 
 .header-mail{
     margin-right: 50px;
