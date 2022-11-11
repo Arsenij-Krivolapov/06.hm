@@ -454,6 +454,7 @@ padding: 6px 23px 6px 23px;
     margin-right: 30px;
     width: 370px;
     height: 404px;
+
 }
 
 .card-item:nth-child(3n){
@@ -542,4 +543,20 @@ letter-spacing: 0.03em;
 .footer{
     background: #2F303A;
 }
+ 
+.card-item::before{
+   width: 370px;
+   height: 294px;
+}
 
+.header-studio-portfolio{
+    margin-right: 50px;
+}
+
+.header-porfolio-portfolio{
+    margin-right: 50px;
+}
+
+.mail-header-port{
+    margin-right: 50px;
+}

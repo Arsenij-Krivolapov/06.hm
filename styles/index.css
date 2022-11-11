@@ -457,6 +457,7 @@ color: #FFFFFF;
 .benefist-list{
     display: flex;
     padding-right: 60px;
+    justify-content: center;
 }
 
 .working-title{
@@ -583,4 +584,26 @@ letter-spacing: 0.03em;
     background-position: center;
     background-color: #F5F4FA;
     background-image: url(/img/astronaut.png);
+}
+
+.header-studio{
+    margin-right: 50px;
+}
+
+.header-item{
+    margin-right: 55px;
+
+}
+
+.header-studio:nth-child(3n){
+    margin-right: none;
+}
+
+.hero-section{
+    
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/herosection.jpg);
+}
+
+.header-mail{
+    margin-right: 50px;
 }
