@@ -27,6 +27,8 @@ p, h1, h2, h3, h4, h5, h6{
     margin-right: auto;
     margin-left: auto;
     outline: solid pink;
+    padding-top: 190px;
+    padding-bottom: 160px;
     
 }
 
