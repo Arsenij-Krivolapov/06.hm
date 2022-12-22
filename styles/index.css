@@ -333,6 +333,10 @@ letter-spacing: 0.03em;
     display: flex;
 }
 
+.benefist-text{
+    color: #757575;
+}
+
 .header-contact{
     display: flex;
     padding-left: 100px;
@@ -409,8 +413,9 @@ color: #FFFFFF;
 
 .benefist-list{
     display: flex;
-    padding-right: 60px;
+    gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .working-title{
@@ -423,6 +428,8 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
+
+margin-bottom: 50px;
 }
 
 .team-title{
@@ -435,6 +442,7 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
+margin-bottom: 50px;
 
 }
 
@@ -449,6 +457,7 @@ color: #212121;
     width: 270px;
     margin-right: 30px;
     padding-bottom: 30px;
+  background-color:  white;
     
 }
 
@@ -471,6 +480,7 @@ letter-spacing: 0.03em;
 
 .footer-item{
     padding-right: 5px;
+    
 }
 
 .benefits-section{
@@ -479,11 +489,10 @@ letter-spacing: 0.03em;
 }
 
 .hero-section{
-    padding-top: 50px;
-    padding-top: 190px;
-    padding-bottom: 160px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/herosection.jpg);
-
+    text-align: center;
 }
 
 
@@ -501,9 +510,18 @@ letter-spacing: 0.03em;
     font-weight: 500;
 }
 
+.benefist-item{
+    width: 270px;
+}
+
+.benefits-title{
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
 
 
-.benefist-item1::before{
+
+.benefist-item::before{
     content: "";
     display: block;
     width: 270px;
@@ -511,39 +529,25 @@ letter-spacing: 0.03em;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
+    
+}
+
+.benefist-item:first-child::before{
     background-image: url(../img/atetiontodetails.png);
 }
 
-.benefist-item2::before{
-    content: "";
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
+.benefist-item:nth-child(2):before{
+    
     background-image: url(../img/clock.png);
 }
 
-.benefist-item3::before{
-    content: "";
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
+.benefist-item:nth-child(3):before{
+    
     background-image: url(../img/diagram.png);
 }
 
-.benefist-item4::before{
-    content: "";
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
+.benefist-item:nth-child(4):before{
+   
     background-image: url(../img/astronaut.png);
 }
 
@@ -560,14 +564,13 @@ letter-spacing: 0.03em;
     margin-right: none;
 }
 
-
-
-.header-mail{
+.contact-item{
     margin-right: 50px;
 }
 
 .team-section{
     margin-top: 94px;
+    background-color: #F5F4FA;
 }
 
 .clients{
@@ -591,31 +594,37 @@ letter-spacing: 0.03em;
 }
 
 .client-item{
-    border: solid grey 1px;
+    border: solid #AFB1B8 1px;
     height: 90px;
     width: 170px;
     justify-content: center;
-    padding-right: 95px;
     transition: 0.2s;
     border-radius: 4px;
     align-items: center;
     display: flex;
-    
+    justify-content: center;
+    color: #AFB1B8;
+}
+
+.client-item:hover{
+    border: solid 1px #2196F3;
+    color: #2196F3;
+}
+
+.svg-client{
+    fill: currentColor;
 }
 
 
 .clients-list{
     display: flex ;
-    padding-right: 95px;
     justify-content: center;
-    
+    gap: 30px;
 }
 
 .svg-list{
     display: flex;
     justify-content: space-between;
-    width: 206px;
-    margin: 16px auto 0;
 }
 
 .svg-item{
@@ -653,6 +662,9 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     
     color: #212121;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
      
 }
 
@@ -701,7 +713,7 @@ font-weight: 700;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
-text-transform: uppercase;
+text-transform: uppercase;  
 }
 
 .form-field{
@@ -714,7 +726,7 @@ text-transform: uppercase;
 .form-svg{
     position: absolute;
     bottom: 14px;
-    left: 15px;
+    left: -120px;
 }
 
 .form-checkbox{
@@ -786,5 +798,130 @@ text-transform: uppercase;
     transform: translate(-50%, -50%);
     background: #FFFFFF;
     border-radius: 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.12)
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.12);
+    display: none;
+    
 }
+
+.contact-icon{
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.contacts-link{
+    color: #757575;
+}
+
+.contact-item{
+
+}
+
+.contacts-link:hover{
+    color: #2196F3;
+}
+
+.header-item{
+   color: black;
+}
+
+.header-item:hover{
+color: #2196F3;
+}
+
+.hero-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 216px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 5%;
+    font-family: "Roboto";
+    margin-top: 40px;
+    border: none;
+}
+
+.contacts-linkf{
+    color: #757575;
+}
+
+.Transparency{
+    position: absolute;
+    background-color: rgba(37, 31, 31, 0.8);
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 220px;
+
+    justify-content: center;
+    
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.Transparency2{
+    position: absolute;
+    background-color: rgba(37, 31, 31, 0.8);
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 250px;
+
+    justify-content: center;
+    
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.Transparency3{
+    position: absolute;
+    background-color: rgba(37, 31, 31, 0.8);
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 250px;
+
+    justify-content: center;
+    
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.working-item{
+    position: relative;
+}
+
+
